@@ -30,6 +30,7 @@ export default class FormElement extends React.Component {
     render() {
         return (
             <div style={{margin: '100px auto', border: '1px solid gray', padding: '20px'}}>
+                <h1>FORM REGISTRASI</h1>
                 <form onSubmit={this.handleSubmit}>
                 <label>
                   Nama: <input 

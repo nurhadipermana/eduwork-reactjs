@@ -1,11 +1,11 @@
 import React from "react";
-import Validation from "./pembahasan/Validation";
+import FormElement from "./pembahasan/FormElement";
 
 export default class Form extends React.Component {
     render() {
         return (
             <div>
-                <Validation />
+                <FormElement />
             </div>
         )
     }
